@@ -2,11 +2,12 @@
 
 int main()
 {
-    int a = 5, b = 10, c;
-    c = a;
-    a = b;
-    b = c;
+    int First = 5, Second = 10, Term;
+    std::cin>>First>>Second;
+    Term = First;
+    First = Second;
+    Second = Term;
 
-    std::cout<<a<<","<<b;
+    std::cout<<First<<","<<Second;
 
 }
