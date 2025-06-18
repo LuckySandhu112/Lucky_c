@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main()
+{
+	int a[3][3],i,j;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			std::cin>>a[i][j];
+		}
+	}
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			std::cout<<a[i][j];
+		}
+		std::cout<<"\n";
+	}
+}
